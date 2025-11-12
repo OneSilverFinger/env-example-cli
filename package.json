@@ -1,0 +1,26 @@
+{
+  "name": "env-example-cli",
+  "version": "0.1.0",
+  "description": "CLI to generate .env.example files from existing .env sources.",
+  "bin": {
+    "env-example": "bin/env-example.js"
+  },
+  "scripts": {
+    "start": "node bin/env-example.js",
+    "dev": "node bin/env-example.js --help"
+  },
+  "keywords": [
+    "dotenv",
+    "cli",
+    "env",
+    "example"
+  ],
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "bin"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
